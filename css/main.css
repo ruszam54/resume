@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&family=Roboto+Condensed&display=swap");
+
+.avatar {
+  border-radius: 30px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  width: 300px;
+  height: auto;
+  float: left;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: #f0f8ff;
+  color: #2f4f4f;
+}
+
+a {
+  color: #3c3c41;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(240, 212, 118);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #a59fa8de;
+}
+
+a:active {
+  color: rgb(0, 76, 139);
+}
+
+.container {
+  margin: auto;
+  max-width: 700px;
+  padding-top: 30px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  margin-left: 30px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  color: #696969;
+  margin: 0;
+  text-indent: 20px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+}
+
+.dg-brown {
+  background: #ddd0c9a0;
+}
+
+.dg-green {
+  background: #98babaa7;
+}
+
+.dg-linen {
+  background: #e9dfd6a4;
+}
+
+.btn {
+  padding: 15px 20px;
+  border: none;
+  color: #c0caca;
+  background: #2f4f4f;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: rgb(234, 218, 165);
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(1) {
+  background: #78b5b52f;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: rgb(70, 61, 65);
+}
+
+.table td:hover {
+  cursor: pointer;
+  background: #2f4f4f36;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  /* display: inline-block; */
+  margin-right: 20px;
+  width: 50%;
+  /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 15px;
+  outline: none;
+  font-family: inherit;
+}

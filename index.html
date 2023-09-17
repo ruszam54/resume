@@ -7,81 +7,111 @@
     <meta name="keywords" content=" Резюме, Замоковенко, Руслан, Junior, Работа">
     <meta name="description"
         content="Это моя будущая страничка-резюме. И мое будущее портфолио, которое поможет мне найту крутую работу. Спасибо за внимание!">
+    <link rel="stylesheet" href="css/main.css">
     <title>Резюме Замоковенко Руслан</title>
 </head>
 
 <body>
-    <img src="https://sun9-51.userapi.com/impg/0wqgfDx3k0UYNJix43z49vM46dbGEzNyCqVS-A/GIKo6HXLpFw.jpg?size=604x453&quality=96&sign=92729f2aec26f9ff0915b5aea8781731&c_uniq_tag=Z7eBXt8HFvDuCIb-QVqcelQ4JfD3y8pPY8L1WN2SC6U&type=album"
-        alt="это Руслан" width="300px">
-    <h1>Замоковенко Руслан</h1>
-    <p>Я работаю по профессии <strong>инженер-конструктор</strong> и недавно принял решение сменить свой род
-        деятельности. Хочу быть <strong>web-разработчиком.</strong> Поэтому приступил к обучению таких языков как
-        <strong>HTML, CSS</strong> и <strong>JS</strong>.<br><br>Я люблю <em>пешие прогулки, дизайн и
-            структуризацию</em>. И к прочему очень плотно
-        вовлекаюсь в <em>web-разработку.</em>
-    </p>
+    <div class="container">
+        <div class="info">
 
-    <h4>Список социальных сетей:</h4>
-    <a href="https://vk.com/ruslan_ruslan_ruslan" target="_blank">VK
-    </a>
-    |
-    <a href="https://instagram.com/badrussell?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank">Нельзяграмм
-    </a>
+            <img src="https://sun9-51.userapi.com/impg/0wqgfDx3k0UYNJix43z49vM46dbGEzNyCqVS-A/GIKo6HXLpFw.jpg?size=604x453&quality=96&sign=92729f2aec26f9ff0915b5aea8781731&c_uniq_tag=Z7eBXt8HFvDuCIb-QVqcelQ4JfD3y8pPY8L1WN2SC6U&type=album"
+                alt="это Руслан" class="avatar">
+            <div class="info-text">
 
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>Визуал/Дизайн/Архитектура</li>
-        <li>Психология/Ментальное здоровье</li>
-        <li>Кулинария/Кофе</li>
-        <li>Бадминтон</li>
-    </ol>
-    <h2>Опыт работы</h2>
+                <h1>Замоковенко Руслан</h1>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>НЕО-ДЕКОР</td>
-                <td>Конструктор</td>
-                <td>2018-2020</td>
-            </tr>
+                <p> На данный момент я работаю инженером-конструктором и недавно принял решение сменить
+                    свой род
+                    деятельности. Хочу быть web-разработчиком. Поэтому приступил к обучению таких
+                    языков
+                    как
+                    HTML, CSS и JS.
+                </p>
+                <p> В свободное от работы и учебы время я люблю изучать различные материалы про дизайн,
+                    архитектуру и ментальное здоровье, еще очень люблю
+                    пешие прогулки. Для меня это своеобразный способ медитации.
+                </p>
 
-            <tr>
-                <td>Studia 54</td>
-                <td>Ведущий конструктор</td>
-                <td>2021-2023</td>
-            </tr>
-            <tr>
-                <td>Массивбурк</td>
-                <td>Конструктор</td>
-                <td>2023 - сейчас</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h2>Связаться со мной</h2>
-
-    <form action="">
-        <div>
-            <label for="name">Ваше Имя:</label>
-            <input type="text" id="name" placeholder="Введите имя">
+                <h4>Список социальных сетей:</h4>
+                <a href="https://vk.com/ruslan_ruslan_ruslan" target="_blank">VK
+                </a>
+                |
+                <a href="https://instagram.com/badrussell" target="_blank">Нельзяграмм
+                </a>
+            </div>
         </div>
-        <div>
-            <label for="email">Ваше email:</label>
-            <input type="email" id="email" placeholder="Введите email">
+
+        <div class="card dg-brown">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Визуал/Дизайн/Архитектура</li>
+                <li>Психология/Ментальное здоровье</li>
+                <li>Кулинария/Кофе</li>
+                <li>Бадминтон</li>
+            </ol>
         </div>
-        <div>
-            <label for="messege">Ваше сообщение:</label><br>
-            <textarea id="messege" cols="23" rows="5" placeholder="Введите сообщение..."></textarea>
+
+        <div class="card dg-green">
+            <h2>Опыт работы</h2><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <!-- <th>Название</th> 
+                        <th>Должность</th>
+                        <th>Год</th>-->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>НЕО-ДЕКОР</td>
+                        <td>Конструктор</td>
+                        <td>2018-2020</td>
+                    </tr>
+
+                    <tr>
+                        <td>Studia 54</td>
+                        <td>Ведущий конструктор</td>
+                        <td>2021-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Массивбурк</td>
+                        <td>Конструктор</td>
+                        <td>2023 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <button type="submit">Отправить!</button>
-    </form>
+        <div class="card dg-linen">
+            <h2>Мои 3D модели</h2>
+            <ul class="link-list">
+                <li>
+                    <a href="https://www.artstation.com/b_russ " target="_blank">Ссылка на Artstation</a>
+                </li>
+                <li><a href="https://memepedia.ru/chernyj-vlastelin/" target="_blank">Изюминка</a>
+                </li>
+            </ul>
+        </div>
+
+        <form action="" class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше Имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваше email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="messege">Ваше сообщение:</label><br>
+                <textarea id="messege" cols="23" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button type="submit" class="btn">Отправить!</button>
+        </form>
+    </div>
 </body>
 
 </html>
