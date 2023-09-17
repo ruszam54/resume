@@ -4,4 +4,4 @@
 
 
 
-[Моя первая работа на HTML & CSS]([https://duckduckgo.com](https://ruszam54.github.io/resume/)https://ruszam54.github.io/resume/)
+[Моя первая работа на HTML & CSS](https://ruszam54.github.io/resume/https://ruszam54.github.io/resume/)
